@@ -95,6 +95,7 @@ echo();
 
 
 // ABC13123, BVV21312, VVV87987, MHB908809
+// сортировка инв. номеров по цифровой части
 
 
         ArrayList<String> list3 = new ArrayList<>(10);
@@ -112,7 +113,8 @@ echo();
         System.out.println(list3);
 
 
-        //-----------
+//---------------------------------------------
+// Точные вычисления для чисел с дробной частью
 
         MathContext mctx = new MathContext(12);
 
